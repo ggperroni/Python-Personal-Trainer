@@ -9,4 +9,5 @@ It consist into an AI that analyzes the exercise you pre-recorded at the gym or 
 [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide?hl=pt-br)
 
 ## How to run
-Download the dependencies on `requirement.txt`
+Download the dependencies on `requirements.txt`<br>
+
