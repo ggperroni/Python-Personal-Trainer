@@ -16,6 +16,7 @@ personalAI.run()
 st.sidebar.title("AI Personal Trainer")
 display_charts = st.sidebar.checkbox('Display charts', value=True)
 reset = st.sidebar.button("Reset")
+st.sidebar.info("Developed by [Guilherme Perroni](http://guilhermeperroni.com)")
 
 col1, col2 = st.columns(2)
 
@@ -56,7 +57,7 @@ while True:
 
         with placeholder.container():
             col1, col2 = st.columns([0.4, 0.6])
-            status_m = f":red[{status}]" if status == "relaxed" else f":green[{status}]"
+            status_m = f":red[{status}]" if status == "Idle" else f":green[{status}]"
             col2.markdown(f"### **Status:** {status_m}")
             col2.markdown(f"### Count: {int(count)}")
 
