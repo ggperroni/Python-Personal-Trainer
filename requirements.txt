@@ -1,2 +1,2 @@
 mediapipe
-opencv-python
+opencv-python-headless
